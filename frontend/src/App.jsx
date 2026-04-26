@@ -17,6 +17,7 @@ import Settings from './pages/Settings';
 import Notifications from './pages/Notifications';
 import Support from './pages/Support';
 import MyReports from './pages/MyReports';
+import Profile from './pages/Profile';
 import Landing from './pages/Landing';
 
 // API & Data
@@ -141,6 +142,7 @@ function App() {
         <Route path="/notifications" element={<Notifications />} />
         <Route path="/support" element={<Support />} />
         <Route path="/settings" element={<Settings />} />
+        <Route path="/profile" element={<Profile role={userRole} />} />
         
         <Route path="*" element={<Navigate to={userRole === 'admin' ? "/dashboard" : "/volunteers"} replace />} />
       </Routes>
