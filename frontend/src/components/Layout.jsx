@@ -21,6 +21,7 @@ const SEARCH_INDEX = [
   { label: 'Medical Needs', path: '/needs', icon: '🏥', type: 'Category' },
   { label: 'Food & Nutrition Needs', path: '/needs', icon: '🍲', type: 'Category' },
   { label: 'Shelter & Housing', path: '/needs', icon: '🏠', type: 'Category' },
+  { label: 'Education & Learning', path: '/needs', icon: '📚', type: 'Category' },
   { label: 'Logistics & Transport', path: '/needs', icon: '🚛', type: 'Category' },
   { label: 'My Location', path: '/needs', icon: '📍', type: 'Action' },
   { label: 'Nearby Recommendations', path: '/needs', icon: '🎯', type: 'Action' },

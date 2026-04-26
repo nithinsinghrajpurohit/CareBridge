@@ -8,7 +8,7 @@ const NeedsForm = ({ onAddNeed }) => {
     description: ''
   });
 
-  const categories = ['General', 'Medical', 'Food', 'Logistics'];
+  const categories = ['General', 'Medical', 'Food', 'Logistics', 'Shelter', 'Education'];
 
   const handleSubmit = (e) => {
     e.preventDefault();

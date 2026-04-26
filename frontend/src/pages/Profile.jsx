@@ -235,6 +235,7 @@ const Profile = ({ role }) => {
                       <option>Logistics & Transport</option>
                       <option>Food Distribution</option>
                       <option>Shelter & Housing</option>
+                      <option>Education & Tutoring</option>
                       <option>Tech & Communications</option>
                       <option>General Volunteer</option>
                     </select>

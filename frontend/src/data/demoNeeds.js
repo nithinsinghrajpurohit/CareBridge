@@ -11,6 +11,8 @@ export const generateDemoNeeds = (centerLat, centerLng) => {
     { dlat: -0.030, dlng: 0.008 },
     { dlat: 0.015, dlng: -0.025 },
     { dlat: -0.008, dlng: 0.035 },
+    { dlat: 0.022, dlng: -0.018 },
+    { dlat: -0.015, dlng: 0.022 },
   ];
 
   const needs = [
@@ -54,7 +56,7 @@ export const generateDemoNeeds = (centerLat, centerLng) => {
     {
       id: 3,
       title: 'Blankets and sleeping bags',
-      category: 'General',
+      category: 'Shelter',
       urgency: 'Medium',
       location: 'North Shelter Complex',
       address: '205 Shelter Road, Zone A',
@@ -86,7 +88,7 @@ export const generateDemoNeeds = (centerLat, centerLng) => {
     {
       id: 5,
       title: 'Children educational materials',
-      category: 'General',
+      category: 'Education',
       urgency: 'Low',
       location: 'Family Center Library',
       address: '33 Education Lane, West Wing',
@@ -177,6 +179,38 @@ export const generateDemoNeeds = (centerLat, centerLng) => {
       contactEmail: 'emily.r@educare.org',
       postedAgo: '8 hr ago',
       volunteerCount: 6,
+      messages: []
+    },
+    {
+      id: 11,
+      title: 'Temporary housing for displaced families',
+      category: 'Shelter',
+      urgency: 'High',
+      location: 'South District Relief Camp',
+      address: '55 Relief Camp Road, Block D',
+      description: 'Tents, tarps, and temporary modular housing units needed for 120 families displaced by flooding in the southern district.',
+      peopleAffected: 480,
+      postedBy: 'Sarah Park',
+      contactPhone: '+91 87654 32109',
+      contactEmail: 'sarah.park@shelter.org',
+      postedAgo: '1 hr ago',
+      volunteerCount: 9,
+      messages: []
+    },
+    {
+      id: 12,
+      title: 'Adult literacy and digital skills workshop',
+      category: 'Education',
+      urgency: 'Medium',
+      location: 'Community Learning Center',
+      address: '18 Knowledge Park, Room 4',
+      description: 'Volunteer instructors needed to run basic literacy and smartphone skills classes for 60 adults at the temporary settlement.',
+      peopleAffected: 60,
+      postedBy: 'David Kumar',
+      contactPhone: '+91 76543 21098',
+      contactEmail: 'david.kumar@medtransport.in',
+      postedAgo: '3 hr ago',
+      volunteerCount: 2,
       messages: []
     },
   ];

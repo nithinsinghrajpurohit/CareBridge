@@ -30,10 +30,12 @@ const Analytics = ({ needs }) => {
   const maxHourly = Math.max(...hourlyData.map(d => d.count));
 
   const categoryBreakdown = [
-    { name: 'Medical', count: 8, pct: 31, color: 'var(--danger)', icon: '🏥' },
-    { name: 'Food', count: 7, pct: 27, color: 'var(--warning)', icon: '🍲' },
-    { name: 'Logistics', count: 6, pct: 23, color: 'var(--accent)', icon: '🚛' },
-    { name: 'General', count: 5, pct: 19, color: 'var(--primary)', icon: '📦' },
+    { name: 'Medical', count: 8, pct: 24, color: 'var(--danger)', icon: '🏥' },
+    { name: 'Food', count: 7, pct: 21, color: 'var(--warning)', icon: '🍲' },
+    { name: 'Shelter', count: 6, pct: 18, color: '#f472b6', icon: '🏠' },
+    { name: 'Education', count: 5, pct: 15, color: '#a78bfa', icon: '📚' },
+    { name: 'Logistics', count: 4, pct: 12, color: 'var(--accent)', icon: '🚛' },
+    { name: 'General', count: 3, pct: 10, color: 'var(--primary)', icon: '📦' },
   ];
 
   const performanceMetrics = [

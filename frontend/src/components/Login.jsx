@@ -401,6 +401,7 @@ const Login = ({ onLoginSuccess }) => {
                       <option value="logistics">📦 Logistics & Transport</option>
                       <option value="food">🍲 Food Distribution</option>
                       <option value="shelter">🏠 Shelter & Housing</option>
+                      <option value="education">📚 Education & Tutoring</option>
                       <option value="tech">💻 Tech & Communications</option>
                       <option value="general">🙋 General Volunteer</option>
                     </select>

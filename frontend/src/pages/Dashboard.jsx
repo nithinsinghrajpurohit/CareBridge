@@ -54,7 +54,7 @@ const Dashboard = ({ needs }) => {
     Low: { bg: 'var(--success-light)', text: 'var(--success)', gradient: 'linear-gradient(135deg, #10b981, #059669)' },
   };
 
-  const categoryIcons = { Medical: '🏥', Food: '🍲', Logistics: '🚛', General: '📦' };
+  const categoryIcons = { Medical: '🏥', Food: '🍲', Logistics: '🚛', General: '📦', Shelter: '🏠', Education: '📚' };
 
   return (
     <div>
@@ -278,10 +278,10 @@ const Dashboard = ({ needs }) => {
                 <tbody>
                   {(enrichedNeeds.length > 0 ? enrichedNeeds.slice(0, 5) : [
                     { id: 1, title: 'Medical supplies needed', category: 'Medical', urgency: 'High', location: 'Downtown Clinic', distance: null },
-                    { id: 2, title: '50 blankets for shelter', category: 'General', urgency: 'Medium', location: 'East Side Shelter', distance: null },
+                    { id: 2, title: '50 blankets for shelter', category: 'Shelter', urgency: 'Medium', location: 'East Side Shelter', distance: null },
                     { id: 3, title: 'Food distribution setup', category: 'Food', urgency: 'High', location: 'Central Park Area', distance: null },
                     { id: 4, title: 'Transport for elderly', category: 'Logistics', urgency: 'Low', location: 'North District', distance: null },
-                    { id: 5, title: 'Water purification kits', category: 'General', urgency: 'Medium', location: 'South River Camp', distance: null },
+                    { id: 5, title: 'School supplies for children', category: 'Education', urgency: 'Medium', location: 'Westside Family Center', distance: null },
                   ]).map(need => (
                     <tr key={need.id}>
                       <td style={{ fontWeight: 600, color: 'var(--text-primary)' }}>{need.title}</td>

@@ -15,9 +15,11 @@ const Community = () => {
     { id: 1, name: 'Maria Chen', role: 'Medical Responder', tasks: 14, rating: 4.9, status: 'active', skills: ['Medical', 'First Aid'], avatar: 'MC', joinedVia: 'Direct' },
     { id: 2, name: 'James Wilson', role: 'Logistics Coordinator', tasks: 22, rating: 4.8, status: 'active', skills: ['Logistics', 'Driving'], avatar: 'JW', joinedVia: 'Referral' },
     { id: 3, name: 'Sarah Park', role: 'Food Services Lead', tasks: 18, rating: 4.7, status: 'active', skills: ['Food', 'Cooking'], avatar: 'SP', joinedVia: 'Direct' },
-    { id: 4, name: 'David Kumar', role: 'General Volunteer', tasks: 9, rating: 4.6, status: 'idle', skills: ['General', 'Teaching'], avatar: 'DK', joinedVia: 'Invite' },
+    { id: 4, name: 'David Kumar', role: 'Education Mentor', tasks: 9, rating: 4.6, status: 'idle', skills: ['Education', 'Teaching'], avatar: 'DK', joinedVia: 'Invite' },
     { id: 5, name: 'Emily Rodriguez', role: 'Emergency Responder', tasks: 31, rating: 5.0, status: 'active', skills: ['Medical', 'Logistics'], avatar: 'ER', joinedVia: 'Referral' },
     { id: 6, name: 'Alex Thompson', role: 'Supply Chain', tasks: 12, rating: 4.5, status: 'idle', skills: ['Logistics', 'General'], avatar: 'AT', joinedVia: 'Invite' },
+    { id: 7, name: 'Priya Sharma', role: 'Shelter Coordinator', tasks: 16, rating: 4.8, status: 'active', skills: ['Shelter', 'Housing'], avatar: 'PS', joinedVia: 'Referral' },
+    { id: 8, name: 'Tom Baker', role: 'Education Mentor', tasks: 11, rating: 4.7, status: 'active', skills: ['Education', 'Tutoring'], avatar: 'TB', joinedVia: 'Direct' },
   ];
 
   const topContributors = [...volunteers].sort((a, b) => b.tasks - a.tasks).slice(0, 3);
@@ -315,6 +317,8 @@ const Community = () => {
                         <option value="Medical Responder">Medical Responder</option>
                         <option value="Food Services">Food Services</option>
                         <option value="Logistics Coordinator">Logistics Coordinator</option>
+                        <option value="Shelter Coordinator">Shelter Coordinator</option>
+                        <option value="Education Mentor">Education Mentor</option>
                         <option value="Emergency Responder">Emergency Responder</option>
                       </select>
                     </div>
